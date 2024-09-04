@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Component/Home';
 import Particle from './Component/Particles/Particles';
+import About from './Component/About';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <div className="relative z-10">
             <Routes>
               <Route path='/' element={<Home/>} />
+              <Route path='/about' element={<About/>}/>
             </Routes>
           </div>
         </div>

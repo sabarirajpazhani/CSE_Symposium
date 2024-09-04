@@ -3,6 +3,7 @@ import { useSpring, animated } from 'react-spring';
 import NavBar from './NavBar';
 import HomeLogo from '../Assets/Images/cse.png';
 import '../Fonts/GlichFont.css'
+import About from './About';
 
 
 const Home = () => {
@@ -77,7 +78,8 @@ const Home = () => {
             <h1 className="text-6xl sm:text-7xl text-center mt-[-15%] sm:mt-8 glitch ">The <span className="text-[#57cfdc]">Symposium</span></h1>
             <animated.img
               style={logoSpring}
-              className="w-35 sm:w-100 my-20 sm:mb-0"
+              //className="w-35 sm:w-100 my-20 sm:mb-0"
+              className="w-35 sm:w-[36%] my-20 sm:mb-0"
               src={HomeLogo}
               alt="Trumpet with tentacle logo"
             />
@@ -141,6 +143,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <About/>
     </>
   );
 };
