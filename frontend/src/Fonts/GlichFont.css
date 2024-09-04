@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'SD Glitch';
+    src: url('./SDGlitch2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  /* Optional: Define any additional styles or effects */
+  .glitch {
+    font-family: 'SD Glitch', sans-serif;
+  }
+  
