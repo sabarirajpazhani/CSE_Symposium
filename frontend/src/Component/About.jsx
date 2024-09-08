@@ -209,6 +209,7 @@ import React, { memo, useState } from "react";
 import { useSpring, animated, config } from "react-spring";
 import CSElogo1 from '../Assets/Images/cse.png';
 import CSElogo2 from '../Assets/Images/cse1.png';
+import Adhilogo from '../Assets/Images/AdhiLogo.png';
 import styled from "styled-components";
 
 const About = () => {
@@ -284,7 +285,28 @@ const About = () => {
             </p>
           </animated.div>
         </div>
+
+        {/* thrid Section */}
+        <div className="section flex flex-col md:flex-row items-center my-12 justify-between w-full">
+          <animated.img
+            style={{ ...springProps, ...vibrate }}
+            src={Adhilogo}
+            alt="DeptLogo"
+            className="w-40 h-40 md:w-63 md:h-63 object-cover mb-10 md:mb-0 md:mr-8"
+            onMouseEnter={() => setScale(1.1)}
+            onMouseLeave={() => setScale(1)}
+          />
+          <animated.div style={slideUp} className="md:flex-1">
+            <h1 className="text-3xl md:text-4xl glitch text-darkDesert mb-4 text-center">
+              Our College
+            </h1>
+            <p className="text-base md:text-lg text-white text-opacity-60 text-[18px] font-normal leading-[2.15em] py-5 w-[100%] mb-4 text-center">
+              Computer Science and Engineering (CSE) is an academic programme that integrates the field of Computer Engineering and Computer Science. The course contains a plethora of topics but emphasizes the basics of computer programming and networking. We work with hardware, software and software systems, including the theory, design, development, and implementation of software and software systems. It is a realm of invention and application that always pushes you to accomplish more and there is never enough. This field has a long and storied history and has seen many advancements. From these, we should conclude that computer science is a revolutionary field.
+            </p>
+          </animated.div>
+        </div>
       </animated.div>
+
     </StyledWrapper>
   );
 };
