@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import phone_view from './Assets/video/phone_view.mp4'
-import desktop_view from './Assets/video/desktop_view.mp4'
+// import phone_view from '../public/video/phone_view.mp4'
+// import desktop_view from '../public/video/desktop_view.mp4'
 import Home from './Component/Home';
 import About from './Component/About';
 
@@ -31,7 +31,7 @@ function App() {
             muted
             className="fixed inset-0 w-full h-full object-cover z-0"
           >
-            <source src={desktop_view} type="video/mp4" />
+            <source src="/video/desktop_view.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         )}
@@ -44,7 +44,7 @@ function App() {
             muted
             className="fixed inset-0 w-full h-full object-cover z-0"
           >
-            <source src={phone_view }type="video/mp4" />
+            <source src="/video/phone_view.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         )}
