@@ -75,7 +75,7 @@ const Home = () => {
           className="container mx-auto bg-lightDesert mt-4/2 flex flex-col items-center justify-center min-h-screen"
         >
           <div className="flex flex-col sm:mb-10 md:flex-row items-center justify-center gap-4">
-            <h1 className="text-4xl sm:text-5xl text-center  text-[#57cfdc] mt-[-15%] sm:mt-8 glitch ">The <span className="text-[#FF4500]">Symposium</span></h1>
+            <h1 className="text-4xl sm:text-5xl text-center  text-[#57cfdc] mt-[-15%] sm:mt-8 glitch "><span className="text-[#FF4500]">Symposium</span></h1>
             <animated.img
               style={logoSpring}
               //className="w-35 sm:w-100 my-20 sm:mb-0"
