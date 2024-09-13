@@ -1,32 +1,113 @@
-import React from 'react';
-
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import phone_view from './Assets/video/phone_view.mp4'
 import Home from './Component/Home';
-import Particle from './Component/Particles/Particles';
 import About from './Component/About';
 
-
 function App() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  // Handle screen size changes
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); // Switch to mobile view when width <= 768px
+    };
+
+    window.addEventListener('resize', handleResize);
+    handleResize(); // Initial check
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
     <>
-      <Particle/>
-      <BrowserRouter>
-        <div className="relative overflow-hidden">
-          
-          <div className="relative z-10">
+      <div className="relative overflow-hidden h-screen">
+        {/* Background video for desktop */}
+        {!isMobile && (
+          <video
+            autoPlay
+            loop
+            muted
+            className="fixed inset-0 w-full h-full object-cover z-0"
+          >
+            <source src="your-desktop-video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        )}
+
+        {/* Background video for mobile */}
+        {isMobile && (
+          <video
+            autoPlay
+            loop
+            muted
+            className="fixed inset-0 w-full h-full object-cover z-0"
+          >
+            <source src={phone_view} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        )}
+
+        {/* Overlay content */}
+        <div className="relative z-10">
+          <BrowserRouter>
             <Routes>
-              <Route path='/' element={<Home/>} />
-              <Route path='/about' element={<About/>}/>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
             </Routes>
-          </div>
+          </BrowserRouter>
         </div>
-      </BrowserRouter>
+      </div>
     </>
-    
   );
 }
 
 export default App;
+
+
+
+
+
+// import React from 'react';
+
+// import { BrowserRouter, Route, Routes } from 'react-router-dom';
+// import Home from './Component/Home';
+// import Particle from './Component/Particles/Particles';
+// import About from './Component/About';
+
+
+// function App() {
+//   return (
+//     <>
+//       <Particle/>
+//       <BrowserRouter>
+//         <div className="relative overflow-hidden">
+          
+//           <div className="relative z-10">
+//             <Routes>
+//               <Route path='/' element={<Home/>} />
+//               <Route path='/about' element={<About/>}/>
+//             </Routes>
+//           </div>
+//         </div>
+//       </BrowserRouter>
+//     </>
+    
+//   );
+// }
+
+// export default App;
+
+
+
+
+
+
+
+
+
+
+
 
 
 // import React, { useState, useEffect } from 'react';
