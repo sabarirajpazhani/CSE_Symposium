@@ -207,7 +207,7 @@
 
 import React, { memo, useState } from "react";
 import { useSpring, animated, config } from "react-spring";
-import CSElogo1 from '../Assets/Images/cse.png';
+import CSElogo1 from '../Assets/Images/Cebroid.png';
 import CSElogo2 from '../Assets/Images/cse1.png';
 import Adhilogo from '../Assets/Images/AdhiLogo.png';
 import styled from "styled-components";
@@ -268,14 +268,6 @@ const About = () => {
 
         {/* Second Section */}
         <div className="section flex flex-col md:flex-row items-center justify-between w-full">
-          <animated.img
-            style={{ ...springProps, ...vibrate }}
-            src={CSElogo2}
-            alt="DeptLogo"
-            className="w-48 h-48 md:w-64 md:h-64 object-cover mb-10 md:mb-0 md:mr-8"
-            onMouseEnter={() => setScale(1.1)}
-            onMouseLeave={() => setScale(1)}
-          />
           <animated.div style={slideUp} className="md:flex-1">
             <h1 className="text-3xl md:text-4xl glitch text-darkDesert mb-4 text-center">
               Department Of Computer Science and Engineering
@@ -284,6 +276,14 @@ const About = () => {
               Computer Science and Engineering (CSE) is an academic programme that integrates the field of Computer Engineering and Computer Science. The course contains a plethora of topics but emphasizes the basics of computer programming and networking. We work with hardware, software and software systems, including the theory, design, development, and implementation of software and software systems. It is a realm of invention and application that always pushes you to accomplish more and there is never enough. This field has a long and storied history and has seen many advancements. From these, we should conclude that computer science is a revolutionary field.
             </p>
           </animated.div>
+          <animated.img
+            style={{ ...springProps, ...vibrate }}
+            src={CSElogo2}
+            alt="DeptLogo"
+            className="w-48 h-48 md:w-64 md:h-64 object-cover mb-10 md:mb-0 md:mr-8"
+            onMouseEnter={() => setScale(1.1)}
+            onMouseLeave={() => setScale(1)}
+          />
         </div>
 
         {/* thrid Section */}

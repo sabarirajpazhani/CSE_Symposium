@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 import NavBar from './NavBar';
-import HomeLogo from '../Assets/Images/cse.png';
+import HomeLogo from '../Assets/Images/Cebroid.png';
 import '../Fonts/GlichFont.css'
 import About from './About';
 
@@ -75,7 +75,7 @@ const Home = () => {
           className="container mx-auto bg-lightDesert mt-4/2 flex flex-col items-center justify-center min-h-screen"
         >
           <div className="flex flex-col sm:mb-10 md:flex-row items-center justify-center gap-4">
-            <h1 className="text-6xl sm:text-7xl text-center mt-[-15%] sm:mt-8 glitch ">The <span className="text-[#57cfdc]">Symposium</span></h1>
+            <h1 className="text-4xl sm:text-5xl text-center mt-[-15%] sm:mt-8 glitch ">The <span className="text-[#57cfdc]">Symposium</span></h1>
             <animated.img
               style={logoSpring}
               //className="w-35 sm:w-100 my-20 sm:mb-0"
@@ -83,7 +83,7 @@ const Home = () => {
               src={HomeLogo}
               alt="Trumpet with tentacle logo"
             />
-            <h1 className="text-6xl sm:text-7xl sm:mt-8  text-center glitch">Begins <span className="text-[#57cfdc]">Now</span></h1>
+            <h1 className="text-4xl sm:text-5xl sm:mt-8  text-center glitch">Begins <span className="text-[#FF4500]">Now</span></h1>
           </div>
       </div>
 

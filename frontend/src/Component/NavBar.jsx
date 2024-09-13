@@ -41,7 +41,7 @@ const NavBar = () => {
             <li>
               <a
                 href="/"
-                className="block py-2 px-3 text-white font-bold hover:text-blue-500 hover:underline hover:decoration-4 md:p-0"
+                className="block py-2 px-3 text-white  hover:text-blue-500 hover:underline hover:decoration-4 md:p-0 glitch"
                 aria-current="page"
               >
                 Home
@@ -50,7 +50,7 @@ const NavBar = () => {
             <li>
               <button
                 onClick={() => scrollToSection('about')}
-                className="block py-2 px-3 text-white font-bold hover:text-blue-500 hover:underline hover:decoration-4 md:p-0"
+                className="block py-2 px-3 text-white  hover:text-blue-500 hover:underline hover:decoration-4 md:p-0 glitch"
               >
                 About
               </button>
@@ -58,7 +58,7 @@ const NavBar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-white font-bold hover:text-blue-500 hover:underline hover:decoration-4 md:p-0"
+                className="block py-2 px-3 text-white hover:text-blue-500 hover:underline hover:decoration-4 md:p-0 glitch"
               >
                 Events
               </a>
@@ -66,7 +66,7 @@ const NavBar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-white font-bold hover:text-blue-500 hover:underline hover:decoration-4 md:p-0"
+                className="block py-2 px-3 text-white hover:text-blue-500 hover:underline hover:decoration-4 md:p-0 glitch"
               >
                 Sponsors
               </a>
