@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import logo from '../Assets/Images/College_logo.png';
-import { Twirl as Hamburger } from 'hamburger-react';
+import logo from '../Assets/Images/cse1.png';
+import { Sling as Hamburger } from 'hamburger-react'
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +20,7 @@ const NavBar = () => {
     <nav className="bg-transparent">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src={logo} className="h-12" alt="Logo" />
+          <img src={logo} className="h-14" alt="Logo" />
         </a>
         <button
           onClick={toggleMenu}
@@ -29,7 +29,7 @@ const NavBar = () => {
           aria-controls="navbar-default"
           aria-expanded={isOpen ? 'true' : 'false'}
         >
-          <Hamburger size={30} color="white" toggled={isOpen} toggle={toggleMenu} />
+          <Hamburger size={30} color="black" toggled={isOpen} toggle={toggleMenu} />
         </button>
         <div
           className={`${
