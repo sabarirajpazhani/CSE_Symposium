@@ -330,21 +330,21 @@ const StyledWrapper = styled.div`
     height: 100%;
     border-radius: 16px;
     border: 7px solid;
-    border-image: linear-gradient(90deg, #57cfdc, #af4261) 1;
+    border-image: linear-gradient(90deg, #57cfdc,#FF4500) 1;
     z-index: -1;
-    animation: borderAnimation 1.5s linear infinite;
+    animation: borderAnimation 2.5s linear infinite;
     pointer-events: none;
   }
 
   @keyframes borderAnimation {
     0% {
-      border-image-source: linear-gradient(90deg, #57cfdc, #af4261);
+      border-image-source: linear-gradient(90deg, #FF4500,#57cfdc);
     }
     50% {
-      border-image-source: linear-gradient(90deg, #af4261, #57cfdc);
+      border-image-source: linear-gradient(90deg, #57cfdc, #FF4500);
     }
     100% {
-      border-image-source: linear-gradient(90deg, #57cfdc, #af4261);
+      border-image-source: linear-gradient(90deg, #FF4500, #57cfdc);
     }
   }
 `;
