@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 import NavBar from './NavBar';
 import HomeLogo from '../Assets/Images/Cebroid.png';
+import Cebroid from '../Assets/Images/cebroid24.png'
 import '../Fonts/GlichFont.css'
 import About from './About';
 
@@ -88,60 +89,71 @@ const Home = () => {
       </div>
 
 
-      <div className="flex flex-col items-center justify-center w-full h-full gap-8 sm:gap-16">
-        <span className="text-2xl sm:text-5xl text-[#57cfdc]   text-center tracking-widest px-2 glitch">
-          Countdown
-        </span>
-        <div className="flex justify-center gap-3 sm:gap-8">
-          <div className="flex flex-col gap-5 relative">
-            <div className="h-16 w-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
-              <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
-              <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-[#a5b4fc]">
-                {countDownTime.days}
+      <div className="flex flex-col items-center justify-center w-full h-full gap-6 sm:gap-16">
+            <animated.img
+              style={logoSpring}
+              className="w-35 sm:w-[36%] my-25 sm:mb-0"
+              src={Cebroid}
+              alt="Trumpet with tentacle logo"
+            />
+          <h2 className="text-[22px] sm:text-4xl font-semibold py-1 text-[#FF4500] text-center tracking-widest px-2 glitch">
+            National Level Technical Symposium
+          </h2>
+          <div className="flex justify-center gap-5 sm:gap-8">
+            <div className="flex flex-col gap-7 relative">
+              <div className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
+                <div className="relative h-3 w-3 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
+                <span className="lg:text-7xl sm:text-6xl text-4xl font-semibold text-[#a5b4fc]">
+                  {countDownTime.days}
+                </span>
+                <div className="relative h-3 w-3 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
+              </div>
+              <span className="text-[#dadae2] text-sm sm:text-2xl glitch text-center capitalize">
+                {countDownTime.days == 1 ? "Day" : "Days"}
               </span>
-              <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
             </div>
-            <span className="text-[#8486A9] text-xs sm:text-2xl text-center capitalize">
-              {countDownTime.days == 1 ? "Day" : "Days"}
-            </span>
-          </div>
-          <div className="flex flex-col gap-5 relative">
-            <div className="h-16 w-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
-              <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
-              <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-[#a5b4fc]">
-                {countDownTime.hours}
+            <div className="flex flex-col gap-7 relative">
+              <div className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
+                <div className="relative h-3 w-3 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
+                <span className="lg:text-7xl sm:text-6xl text-4xl font-semibold text-[#a5b4fc]">
+                  {countDownTime.hours}
+                </span>
+                <div className="relative h-3 w-3 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
+              </div>
+              <span className="text-[#dadae2] text-sm sm:text-2xl glitch text-center capitalize">
+                {countDownTime.hours == 1 ? "Hour" : "Hours"}
               </span>
-              <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
             </div>
-            <span className="text-[#8486A9] text-xs sm:text-2xl text-center font-medium">
-              {countDownTime.hours == 1 ? "Hour" : "Hours"}
-            </span>
-          </div>
-          <div className="flex flex-col gap-5 relative">
-            <div className="h-16 w-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
-              <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
-              <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-[#a5b4fc]">
-                {countDownTime.minutes}
+            <div className="flex flex-col gap-7 relative">
+              <div className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
+                <div className="relative h-3 w-3 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
+                <span className="lg:text-7xl sm:text-6xl text-4xl font-semibold text-[#a5b4fc]">
+                  {countDownTime.minutes}
+                </span>
+                <div className="relative h-3 w-3 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
+              </div>
+              <span className="text-[#dadae2] text-sm sm:text-2xl glitch text-center capitalize">
+                {countDownTime.minutes == 1 ? "Minute" : "Minutes"}
               </span>
-              <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
             </div>
-            <span className="text-[#8486A9] text-xs sm:text-2xl text-center capitalize">
-              {countDownTime.minutes == 1 ? "Minute" : "Minutes"}
-            </span>
-          </div>
-          <div className="flex flex-col gap-5 relative">
-            <div className="h-16 w-16 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
-              <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
-              <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-[#a5b4fc]">
-                {countDownTime.seconds}
+            <div className="flex flex-col gap-7 relative">
+              <div className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
+                <div className="relative h-3 w-3 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
+                <span className="lg:text-7xl sm:text-6xl text-4xl font-semibold text-[#a5b4fc]">
+                  {countDownTime.seconds}
+                </span>
+                <div className="relative h-3 w-3 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
+              </div>
+              <span className="text-[#dadae2] text-sm sm:text-2xl glitch text-center capitalize">
+                {countDownTime.seconds == 1 ? "Second" : "Seconds"}
               </span>
-              <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
             </div>
-            <span className="text-[#8486A9] text-xs sm:text-2xl text-center capitalize">
-              {countDownTime.seconds == 1 ? "Second" : "Seconds"}
-            </span>
+            
           </div>
-        </div>
+          <h2 className="text-[22px] sm:text-4xl  font-semibold py-7 text-[#FF4500] text-center tracking-widest px-2 glitch">
+            October 20, 2024
+          </h2>
+
       </div>
       {/* <About/> */}
       <div id="about">
