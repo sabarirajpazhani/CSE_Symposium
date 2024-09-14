@@ -41,7 +41,7 @@ const NavBar = () => {
             <li>
               <a
                 href="/"
-                className="block py-2 px-3 text-white  hover:text-blue-500 hover:underline hover:decoration-4 md:p-0 glitch"
+                className="block py-2 px-3 text-white  hover:text-[#FF4500] hover:underline hover:decoration-4 md:p-0 glitch"
                 aria-current="page"
               >
                 Home
@@ -58,7 +58,7 @@ const NavBar = () => {
             <li>
               <a
                 href="#"
-                className="block py-2 px-3 text-white hover:text-blue-500 hover:underline hover:decoration-4 md:p-0 glitch"
+                className="block py-2 px-3 text-white hover:text-[#FF4500] hover:underline hover:decoration-4 md:p-0 glitch"
               >
                 Events
               </a>
@@ -68,7 +68,7 @@ const NavBar = () => {
                 href="#"
                 className="block py-2 px-3 text-white hover:text-blue-500 hover:underline hover:decoration-4 md:p-0 glitch"
               >
-                Sponsors
+                Partners
               </a>
             </li>
           </ul>

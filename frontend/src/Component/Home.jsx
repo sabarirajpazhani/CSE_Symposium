@@ -96,9 +96,10 @@ const Home = () => {
               src={Cebroid}
               alt="Trumpet with tentacle logo"
             />
-          <h2 className="text-[22px] sm:text-4xl font-semibold py-1 text-[#FF4500] text-center tracking-widest px-2 glitch">
-            National Level Technical Symposium
+          <h2 className="text-[22px] sm:text-4xl font-semibold py-1 text-[#57cfdc] text-center tracking-widest px-2 glitch">
+            National Level <span className="text-[#FF4500]">Technical Symposium</span> 
           </h2>
+          
           <div className="flex justify-center gap-5 sm:gap-8">
             <div className="flex flex-col gap-7 relative">
               <div className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
@@ -164,3 +165,5 @@ const Home = () => {
 };
 
 export default Home;
+
+
