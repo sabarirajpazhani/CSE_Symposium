@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 import NavBar from './NavBar';
+import styled from "styled-components";
 import HomeLogo from '../Assets/Images/Cebroid.png';
 import Cebroid from '../Assets/Images/cebroid24.png'
 import '../Fonts/GlichFont.css'
@@ -154,7 +155,7 @@ const Home = () => {
           <h2 className="text-[22px] sm:text-4xl  font-semibold py-7 text-[#FF4500] text-center tracking-widest px-2 glitch">
             October 20, 2024
           </h2>
-
+          <Button />
       </div>
       {/* <About/> */}
       <div id="about">
@@ -166,4 +167,52 @@ const Home = () => {
 
 export default Home;
 
+// Button component with Google Form redirection
+const Button = () => {
+  return (
+    <StyledWrapper>
+      <a href="https://forms.gle/your-google-form-link" target="_blank" rel="noopener noreferrer">
+        <button className='glitch'>Register Now</button>
+      </a>
+    </StyledWrapper>
+  );
+};
 
+// Styled component for the button
+const StyledWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  button {
+    --b: 3px;
+    --s: 0.45em;
+    --color: #e2e2e2;
+
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background: conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: 0.3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: 0.6em;
+    font-size: 16px;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  button:hover,
+  button:focus-visible {
+    --_p: 0px;
+    outline-color: #ffffff;
+    outline-offset: 0.05em;
+  }
+
+  button:active {
+    background: #ffffff;
+    color: #000000;
+  }
+`;
