@@ -73,7 +73,7 @@ const Home = () => {
 
       <div
           id="home"
-          className="container mx-auto bg-lightDesert mt-4/2 flex flex-col items-center justify-center min-h-screen"
+          className="container mx-auto bg-lightDesert mt-14 flex flex-col items-center justify-center min-h-screen"
         >
           <div className="flex flex-col sm:mb-10 md:flex-row items-center justify-center gap-4">
             <h1 className="text-4xl sm:text-5xl text-center  text-[#57cfdc] mt-[-15%] sm:mt-8 glitch ">The <span className="text-[#FF4500]">Symposium</span></h1>
