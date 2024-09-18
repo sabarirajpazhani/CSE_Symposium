@@ -223,7 +223,7 @@ const About = () => {
             style={{ ...springProps, ...vibrate }}
             src={CSElogo2}
             alt="DeptLogo"
-            className="w-48 h-48 md:w-64 md:h-64 object-cover mb-10 md:mb-0 md:mr-8"
+            className="w-48 h-48 md:w-60 md:h-60 object-cover mb-10 md:mb-0 md:mr-8"
             onMouseEnter={() => setScale(1.1)}
             onMouseLeave={() => setScale(1)}
           />

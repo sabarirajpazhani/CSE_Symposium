@@ -4,6 +4,10 @@ import NavBar from './NavBar';
 import styled from "styled-components";
 import HomeLogo from '../Assets/Images/Cebroid.png';
 import Cebroid from '../Assets/Images/cebroid24.png'
+import Dragon from '../Assets/Images/countdownImage/dragon.png'
+import Fox from '../Assets/Images/countdownImage/fox.jpeg'
+import House from '../Assets/Images/countdownImage/house.jpeg'
+import Raven from '../Assets/Images/countdownImage/raven.png'
 import '../Fonts/GlichFont.css'
 import About from './About';
 
@@ -101,9 +105,14 @@ const Home = () => {
             National Level <span className="text-[#FF4500]">Technical Symposium</span> 
           </h2>
           
+
           <div className="flex justify-center gap-5 sm:gap-8">
+            {/* Days countdown */}
             <div className="flex flex-col gap-7 relative">
-              <div className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
+              <div
+                className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg bg-cover bg-center"
+                style={{ backgroundImage:  `url(${Dragon})` }}
+              >
                 <div className="relative h-3 w-3 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
                 <span className="lg:text-7xl sm:text-6xl text-4xl font-semibold text-[#a5b4fc]">
                   {countDownTime.days}
@@ -114,8 +123,13 @@ const Home = () => {
                 {countDownTime.days == 1 ? "Day" : "Days"}
               </span>
             </div>
+
+            {/* Hours countdown */}
             <div className="flex flex-col gap-7 relative">
-              <div className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
+              <div
+                className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg bg-cover bg-center"
+                style={{ backgroundImage: `url(${Fox})` }}
+              >
                 <div className="relative h-3 w-3 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
                 <span className="lg:text-7xl sm:text-6xl text-4xl font-semibold text-[#a5b4fc]">
                   {countDownTime.hours}
@@ -126,8 +140,13 @@ const Home = () => {
                 {countDownTime.hours == 1 ? "Hour" : "Hours"}
               </span>
             </div>
+
+            {/* Minutes countdown */}
             <div className="flex flex-col gap-7 relative">
-              <div className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
+              <div
+                className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg bg-cover bg-center"
+                style={{ backgroundImage: `url(${House})`  }}
+              >
                 <div className="relative h-3 w-3 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
                 <span className="lg:text-7xl sm:text-6xl text-4xl font-semibold text-[#a5b4fc]">
                   {countDownTime.minutes}
@@ -138,8 +157,13 @@ const Home = () => {
                 {countDownTime.minutes == 1 ? "Minute" : "Minutes"}
               </span>
             </div>
+
+            {/* Seconds countdown */}
             <div className="flex flex-col gap-7 relative">
-              <div className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg">
+              <div
+                className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg bg-cover bg-center"
+                style={{ backgroundImage: `url(${Raven})` }}
+              >
                 <div className="relative h-3 w-3 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
                 <span className="lg:text-7xl sm:text-6xl text-4xl font-semibold text-[#a5b4fc]">
                   {countDownTime.seconds}
@@ -150,8 +174,13 @@ const Home = () => {
                 {countDownTime.seconds == 1 ? "Second" : "Seconds"}
               </span>
             </div>
-            
           </div>
+
+
+
+
+
+
           <h2 className="text-[22px] sm:text-4xl  font-semibold py-7 text-[#FF4500] text-center tracking-widest px-2 glitch">
             October 20, 2024
           </h2>
@@ -177,6 +206,9 @@ const Button = () => {
     </StyledWrapper>
   );
 };
+
+
+
 
 // Styled component for the button
 const StyledWrapper = styled.div`
