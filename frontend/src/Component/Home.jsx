@@ -102,7 +102,7 @@ const Home = () => {
               alt="Trumpet with tentacle logo"
             />
           <h2 className="text-[22px] sm:text-4xl font-semibold py-1 text-[#57cfdc] text-center tracking-widest px-2 glitch">
-            National Level <span className="text-[#FF4500]">Technical Symposium</span> 
+            Winter is <span className="text-[#FF4500]">Coming</span> 
           </h2>
           
 
@@ -114,7 +114,7 @@ const Home = () => {
                 style={{ backgroundImage:  `url(${Dragon})` }}
               >
                 <div className="relative h-3 w-3 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
-                <span className="lg:text-7xl sm:text-6xl text-4xl font-semibold text-[#a5b4fc]">
+                <span className="lg:text-7xl sm:text-6xl text-4xl font-semibold text-[#ffffff]">
                   {countDownTime.days}
                 </span>
                 <div className="relative h-3 w-3 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
@@ -131,7 +131,7 @@ const Home = () => {
                 style={{ backgroundImage: `url(${Fox})` }}
               >
                 <div className="relative h-3 w-3 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
-                <span className="lg:text-7xl sm:text-6xl text-4xl font-semibold text-[#a5b4fc]">
+                <span className="lg:text-7xl sm:text-6xl text-4xl font-semibold text-[#ffffff]">
                   {countDownTime.hours}
                 </span>
                 <div className="relative h-3 w-3 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
@@ -148,7 +148,7 @@ const Home = () => {
                 style={{ backgroundImage: `url(${House})`  }}
               >
                 <div className="relative h-3 w-3 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
-                <span className="lg:text-7xl sm:text-6xl text-4xl font-semibold text-[#a5b4fc]">
+                <span className="lg:text-7xl sm:text-6xl text-4xl font-semibold text-[#ffffff]">
                   {countDownTime.minutes}
                 </span>
                 <div className="relative h-3 w-3 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
@@ -165,7 +165,7 @@ const Home = () => {
                 style={{ backgroundImage: `url(${Raven})` }}
               >
                 <div className="relative h-3 w-3 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
-                <span className="lg:text-7xl sm:text-6xl text-4xl font-semibold text-[#a5b4fc]">
+                <span className="lg:text-7xl sm:text-6xl text-4xl font-semibold text-[#ffffff]">
                   {countDownTime.seconds}
                 </span>
                 <div className="relative h-3 w-3 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24]"></div>
