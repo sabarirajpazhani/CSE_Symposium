@@ -110,7 +110,7 @@ const Home = () => {
             {/* Days countdown */}
             <div className="flex flex-col gap-7 relative">
               <div
-                className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg bg-cover bg-center"
+                className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex rounded-full justify-between items-center bg-[#343650] bg-cover bg-center"
                 style={{ backgroundImage:  `url(${Dragon})` }}
               >
                 <div className="relative h-3 w-3 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
@@ -127,7 +127,7 @@ const Home = () => {
             {/* Hours countdown */}
             <div className="flex flex-col gap-7 relative">
               <div
-                className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg bg-cover bg-center"
+                className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-full bg-cover bg-center"
                 style={{ backgroundImage: `url(${Fox})` }}
               >
                 <div className="relative h-3 w-3 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
@@ -144,7 +144,7 @@ const Home = () => {
             {/* Minutes countdown */}
             <div className="flex flex-col gap-7 relative">
               <div
-                className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg bg-cover bg-center"
+                className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-full bg-cover bg-center"
                 style={{ backgroundImage: `url(${House})`  }}
               >
                 <div className="relative h-3 w-3 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
@@ -161,7 +161,7 @@ const Home = () => {
             {/* Seconds countdown */}
             <div className="flex flex-col gap-7 relative">
               <div
-                className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#343650] rounded-lg bg-cover bg-center"
+                className="h-20 w-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 flex justify-between items-center bg-[#000000] rounded-full bg-cover bg-center"
                 style={{ backgroundImage: `url(${Raven})` }}
               >
                 <div className="relative h-3 w-3 sm:h-3 sm:w-3 -left-[6px] rounded-full bg-[#191A24]"></div>
