@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 // import desktop_view from '../public/video/desktop_view.mp4'
 import Home from './Component/Home';
 import About from './Component/About';
+import TechEvents from './Component/TechEvents'
 
 function App() {
   const [isMobile, setIsMobile] = useState(false);
@@ -55,6 +56,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
+              <Route path="/techEvents" element ={<TechEvents/>}/>
             </Routes>
           </BrowserRouter>
         </div>

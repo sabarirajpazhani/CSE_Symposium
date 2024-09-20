@@ -10,6 +10,7 @@ import House from '../Assets/Images/countdownImage/house.jpeg'
 import Raven from '../Assets/Images/countdownImage/raven.png'
 import '../Fonts/GlichFont.css'
 import About from './About';
+import TechEvent from './TechEvents'
 
 
 const Home = () => {
@@ -189,6 +190,7 @@ const Home = () => {
       {/* <About/> */}
       <div id="about">
         <About />
+        <TechEvent/>
       </div>
     </>
   );
