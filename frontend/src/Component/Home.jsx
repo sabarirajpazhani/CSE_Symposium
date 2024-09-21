@@ -12,6 +12,7 @@ import '../Fonts/GlichFont.css'
 import About from './About';
 import TechEvents from './TechEvents'
 import NonTechEvents from './NonTechEvents';
+import Footer from './Footer';
 
 
 const Home = () => {
@@ -193,6 +194,7 @@ const Home = () => {
         <About />
         <TechEvents/>
         <NonTechEvents/>
+        <Footer/>
       </div>
     </>
   );

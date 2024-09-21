@@ -4,6 +4,7 @@ import Home from './Component/Home';
 import About from './Component/About';
 import TechEvents from './Component/TechEvents'
 import NonTechEvents from './Component/NonTechEvents';
+import Footer from './Component/Footer';
 
 function App() {
   const [isMobile, setIsMobile] = useState(false);
@@ -57,6 +58,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/techEvents" element ={<TechEvents/>}/>
               <Route path="/nontechEvents" element={<NonTechEvents/>}/>
+              <Route path="/footer" element={<Footer/>}/>
             </Routes>
           </BrowserRouter>
         </div>
