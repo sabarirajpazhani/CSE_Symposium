@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { memo, useState } from "react";
 import { FaGithub, FaExternalLinkAlt, FaTimesCircle } from "react-icons/fa";
 import Modal from "react-modal";
 import { useTrail, useSpring, animated } from "react-spring";
 import projects from "../Data/projects.json";
+import styled from "styled-components";
 
 const ProjectModal = ({ project, isOpen, closeModal }) => (
   <Modal
@@ -11,7 +12,7 @@ const ProjectModal = ({ project, isOpen, closeModal }) => (
     className="fixed inset-0 z-50 flex items-center justify-center p-6"
     overlayClassName="bg-black bg-opacity-50 transition-opacity duration-500 ease-out"
   >
-    <div className="bg-white bg-opacity-80 p-6 rounded-lg shadow-2xl transform transition-transform duration-500 ease-out space-y-4 sm:space-y-0 max-w-md max-h-[80vh] overflow-y-auto">
+    <div className="bg-[#3a3939] bg-opacity-80 p-6 rounded-lg shadow-2xl transform transition-transform duration-500 ease-out space-y-4 sm:space-y-0 max-w-md max-h-[100vh] overflow-y-auto">
       <button
         onClick={closeModal}
         className="absolute top-2 right-2 text-darkDesert hover:text-goldDesert"
@@ -50,6 +51,43 @@ const ProjectModal = ({ project, isOpen, closeModal }) => (
   </Modal>
 );
 
+const StyledWrapper = styled.div`
+  .section {
+    position: relative;
+    padding: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 4px solid transparent;
+  }
+
+  .section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    border: 7px solid;
+    border-image: linear-gradient(90deg, #57cfdc, #FF4500) 1;
+    z-index: -1;
+    animation: borderAnimation 2.5s linear infinite;
+    pointer-events: none;
+  }
+
+  @keyframes borderAnimation {
+    0% {
+      border-image-source: linear-gradient(90deg, #FF4500, #57cfdc);
+    }
+    50% {
+      border-image-source: linear-gradient(90deg, #57cfdc, #FF4500);
+    }
+    100% {
+      border-image-source: linear-gradient(90deg, #FF4500, #57cfdc);
+    }
+  }
+`;
+
 const ProjectCard = ({ project, openModal }) => {
   const [hovered, setHovered] = useState(false);
   const hoverProps = useSpring({
@@ -57,32 +95,35 @@ const ProjectCard = ({ project, openModal }) => {
   });
 
   return (
-    <animated.div
-      style={hoverProps}
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-      className="relative group"
-    >
-      <div className="relative group">
-        <img
-          src={project.thumbnail}
-          alt={project.title}
-          className="w-full h-64 object-cover rounded-lg shadow-md"
-        />
-        <div className="absolute inset-0 bg-darkDesert bg-opacity-70 flex items-center justify-center rounded-lg shadow-md opacity-0 group-hover:opacity-100 transition-all duration-500">
-          <h1 className="glitch  text-center text-sm md:text-2xl lg:text-3xl truncate w-11/12 md:w-10/12 ">
-            {project.title}
-          </h1>
+    <StyledWrapper>
+      <animated.div
+        className="section"
+        style={hoverProps}
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
+      >
+        <div className="relative group">
+          <img
+            src={project.thumbnail}
+            alt={project.title}
+            className="w-full h-64 object-cover rounded-lg shadow-md"
+          />
+          <div className="absolute inset-0 bg-darkDesert bg-opacity-70 flex items-center justify-center rounded-lg shadow-md opacity-0 group-hover:opacity-100 transition-all duration-500">
+            <h1 className="glitch text-center text-sm md:text-2xl lg:text-3xl truncate w-11/12 md:w-10/12">
+              {project.title}
+            </h1>
+          </div>
+          <button onClick={openModal} className="absolute inset-0 cursor-pointer">
+            <span className="sr-only">Open details for {project.title}</span>
+          </button>
         </div>
-        <button onClick={openModal} className="absolute inset-0 cursor-pointer">
-          <span className="sr-only">Open details for {project.title}</span>
-        </button>
-      </div>
-    </animated.div>
+      </animated.div>
+    </StyledWrapper>
   );
 };
 
-export default function Projects() {
+
+const Projects=()=> {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const trails = useTrail(projects.length, {
@@ -105,11 +146,11 @@ export default function Projects() {
   const reversedProjects = [...projects].reverse();
 
   return (
-    <div
-      id="projects"
-      className="container mx-auto flex flex-col items-center p-8 bg-lightDesert bg-opacity-80 mt-12 min-h-screen"
+      <div
+      id="techEvents"
+      className="container mx-auto flex flex-col items-center p-8 bg-lightDesert bg-opacity-80 mt-12 min-h-screen pt-[80px]" // add padding at the top
     >
-      <h2 className="text-4xl glitch text-darkDesert mb-4">Technical Events</h2>
+      <h2 className="text-4xl font-semibold text-[#57cfdc] glitch text-center mb-10">Technical<span className="text-[#FF4500] font-semibold text-center"> Events</span> </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
         {trails.map((props, index) => (
           <animated.div key={reversedProjects[index].id} style={props}>
@@ -130,5 +171,14 @@ export default function Projects() {
         </animated.div>
       )}
     </div>
+    
   );
 }
+
+
+export default memo(Projects);
+
+
+
+
+

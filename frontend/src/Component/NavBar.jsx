@@ -213,7 +213,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-transparent fixed top-0 left-0 w-full z-50">
+    <nav className="bg-transparent top-0 left-0 w-full z-50">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={logo} className="h-14" alt="Logo" />
@@ -256,13 +256,16 @@ const NavBar = () => {
               </button>
             </li>
             <li>
-              <a
-                href="#"
+              <button
+                onClick={() => {
+                  // Replace 'techEvents' with the section ID or scroll function you want
+                  scrollToSection('techEvents'); 
+                  closeMenu();
+                }}
                 className="block py-2 px-3 text-white hover:text-[#FF4500] hover:underline hover:decoration-4 md:p-0 glitch"
-                onClick={closeMenu}
               >
                 Events
-              </a>
+              </button>
             </li>
             <li>
               <a

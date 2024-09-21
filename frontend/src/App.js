@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-// import phone_view from '../public/video/phone_view.mp4'
-// import desktop_view from '../public/video/desktop_view.mp4'
 import Home from './Component/Home';
 import About from './Component/About';
 import TechEvents from './Component/TechEvents'
