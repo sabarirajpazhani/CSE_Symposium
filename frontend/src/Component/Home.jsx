@@ -11,6 +11,7 @@ import Raven from '../Assets/Images/countdownImage/raven.png'
 import '../Fonts/GlichFont.css'
 import About from './About';
 import TechEvents from './TechEvents'
+import NonTechEvents from './NonTechEvents';
 
 
 const Home = () => {
@@ -191,6 +192,7 @@ const Home = () => {
       <div id="about">
         <About />
         <TechEvents/>
+        <NonTechEvents/>
       </div>
     </>
   );

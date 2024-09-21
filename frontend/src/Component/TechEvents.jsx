@@ -6,12 +6,12 @@ import projects from "../Data/projects.json";
 import styled from "styled-components";
 
 const ProjectModal = ({ project, isOpen, closeModal }) => {
-  // New animation for modal (zoom-in with rotation)
+
   const modalAnimation = useSpring({
     opacity: isOpen ? 1 : 0,
     transform: isOpen
-      ? 'scale(1) rotate(0deg)'    // Final state: fully visible, no rotation
-      : 'scale(0.8) rotate(-10deg)', // Initial state: smaller size with slight rotation
+      ? 'scale(1) rotate(0deg)'    
+      : 'scale(0.8) rotate(-10deg)', 
     config: { tension: 220, friction: 25 },
   });
 
@@ -71,52 +71,6 @@ const ProjectModal = ({ project, isOpen, closeModal }) => {
     </Modal>
   );
 };
-
-// const ProjectModal = ({ project, isOpen, closeModal }) => (
-//   <Modal
-//     isOpen={isOpen}
-//     onRequestClose={closeModal}
-//     className="fixed inset-0 z-50 flex items-center justify-center p-6"
-//     overlayClassName="bg-black bg-opacity-50 transition-opacity duration-500 ease-out"
-//   >
-//     <div className="bg-[#3a3939] bg-opacity-90 p-6 rounded-lg shadow-2xl transform transition-transform duration-500 ease-out space-y-4 sm:space-y-0 max-w-md max-h-[100vh] overflow-y-auto">
-//       <button
-//         onClick={closeModal}
-//         className="absolute top-2 right-2 text-darkDesert hover:text-goldDesert"
-//       >
-//         <FaTimesCircle size={32} />
-//       </button>
-
-//       <div>
-//         <h3 className="text-darkDesert glitch text-2xl sm:text-3xl font-bold mb-4">
-//           {project.title}
-//         </h3>
-//         <p className="text-darkDesert glitch mb-4">{project.description}</p>
-//         <p className="text-darkDesert glitch font-bold mb-4">{project.date}</p>
-//         <div className="flex justify-between glitch items-center">
-//           {project.github ? (
-//             <a
-//               href={project.github}
-//               target="_blank"
-//               rel="noopener noreferrer"
-//               className="mx-2 text-darkDesert hover:text-goldDesert transition-colors duration-300"
-//             >
-//               {/* <FaGithub size={32} /> */}
-//             </a>
-//           ) : null}
-//           <a
-//             href={project.deployed}
-//             target="_blank"
-//             rel="noopener noreferrer"
-//             className="mx-2 text-darkDesert hover:text-goldDesert transition-colors duration-300"
-//           >
-//             {/* <FaExternalLinkAlt size={32} /> */}
-//           </a>
-//         </div>
-//       </div>
-//     </div>
-//   </Modal>
-// );
 
 const StyledWrapper = styled.div`
   .section {

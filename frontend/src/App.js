@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Component/Home';
 import About from './Component/About';
 import TechEvents from './Component/TechEvents'
+import NonTechEvents from './Component/NonTechEvents';
 
 function App() {
   const [isMobile, setIsMobile] = useState(false);
@@ -55,6 +56,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/techEvents" element ={<TechEvents/>}/>
+              <Route path="/nontechEvents" element={<NonTechEvents/>}/>
             </Routes>
           </BrowserRouter>
         </div>

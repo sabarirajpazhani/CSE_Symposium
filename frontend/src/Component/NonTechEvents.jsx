@@ -2,7 +2,7 @@ import React, { memo, useState } from "react";
 import { FaGithub, FaExternalLinkAlt, FaTimesCircle } from "react-icons/fa";
 import Modal from "react-modal";
 import { useTrail, useSpring, animated } from "react-spring";
-import projects from "../Data/projects.json";
+import projects from "../Data/projects2.json";
 import styled from "styled-components";
 
 const ProjectModal = ({ project, isOpen, closeModal }) => {
@@ -71,52 +71,6 @@ const ProjectModal = ({ project, isOpen, closeModal }) => {
     </Modal>
   );
 };
-
-// const ProjectModal = ({ project, isOpen, closeModal }) => (
-//   <Modal
-//     isOpen={isOpen}
-//     onRequestClose={closeModal}
-//     className="fixed inset-0 z-50 flex items-center justify-center p-6"
-//     overlayClassName="bg-black bg-opacity-50 transition-opacity duration-500 ease-out"
-//   >
-//     <div className="bg-[#3a3939] bg-opacity-90 p-6 rounded-lg shadow-2xl transform transition-transform duration-500 ease-out space-y-4 sm:space-y-0 max-w-md max-h-[100vh] overflow-y-auto">
-//       <button
-//         onClick={closeModal}
-//         className="absolute top-2 right-2 text-darkDesert hover:text-goldDesert"
-//       >
-//         <FaTimesCircle size={32} />
-//       </button>
-
-//       <div>
-//         <h3 className="text-darkDesert glitch text-2xl sm:text-3xl font-bold mb-4">
-//           {project.title}
-//         </h3>
-//         <p className="text-darkDesert glitch mb-4">{project.description}</p>
-//         <p className="text-darkDesert glitch font-bold mb-4">{project.date}</p>
-//         <div className="flex justify-between glitch items-center">
-//           {project.github ? (
-//             <a
-//               href={project.github}
-//               target="_blank"
-//               rel="noopener noreferrer"
-//               className="mx-2 text-darkDesert hover:text-goldDesert transition-colors duration-300"
-//             >
-//               {/* <FaGithub size={32} /> */}
-//             </a>
-//           ) : null}
-//           <a
-//             href={project.deployed}
-//             target="_blank"
-//             rel="noopener noreferrer"
-//             className="mx-2 text-darkDesert hover:text-goldDesert transition-colors duration-300"
-//           >
-//             {/* <FaExternalLinkAlt size={32} /> */}
-//           </a>
-//         </div>
-//       </div>
-//     </div>
-//   </Modal>
-// );
 
 const StyledWrapper = styled.div`
   .section {
@@ -217,7 +171,7 @@ const Projects=()=> {
       id="techEvents"
       className="container mx-auto flex flex-col items-center p-8 bg-lightDesert bg-opacity-80 mt-12 min-h-screen pt-[80px]" // add padding at the top
     >
-      <h2 className="text-4xl font-semibold text-[#57cfdc] glitch text-center mb-10">Technical<span className="text-[#FF4500] font-semibold text-center"> Events</span> </h2>
+      <h2 className="text-4xl text-[#57cfdc] glitch text-center mb-10">Non Technical<span className="text-[#FF4500] font-semibold text-center"> Events</span> </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
         {trails.map((props, index) => (
           <animated.div key={reversedProjects[index].id} style={props}>
