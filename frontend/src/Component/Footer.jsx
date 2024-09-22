@@ -1,7 +1,9 @@
 import React from 'react';
 import cebroid from '../Assets/Images/Cebroid.png';
 import clg from '../Assets/Images/AdhiLogo.png';
-
+import insta from '../Assets/Images/Social_media/insta.png'
+import fb from '../Assets/Images/Social_media/facebook.png'
+import whatsapp from '../Assets/Images/Social_media/whatsapp.png'
 const Footer = () => {
   return (
     <footer className="bg-[#2b2a2a] bg-opacity-60 px-4 py-10 shadow-custom dark:text-gray-800">
@@ -48,13 +50,13 @@ const Footer = () => {
             </h3>
             <div className="mt-2 flex justify-center space-x-3">
               <a href="#" title="Facebook" className="flex items-center p-1">
-                <img src="/images/facebook.png" alt="Facebook" className="w-5 h-5" />
+                <img src={insta} alt="Instagram" className="w-8 h-8" />
               </a>
               <a href="#" title="Twitter" className="flex items-center p-1">
-                <img src="/images/twitter.png" alt="Twitter" className="w-5 h-5" />
+                <img src={whatsapp} alt="WhatsApp" className="w-8 h-8" />
               </a>
               <a href="#" title="Instagram" className="flex items-center p-1">
-                <img src="/images/instagram.png" alt="Instagram" className="w-5 h-5" />
+                <img src={fb} alt="Facebook" className="w-7 h-7" />
               </a>
             </div>
           </div>
