@@ -213,7 +213,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-transparent fixed top-0 left-0 w-full z-50">
+    <nav className="bg-transparent op-0 left-0 w-full z-50">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={logo} className="h-14" alt="Logo" />
