@@ -5,6 +5,7 @@ import About from './Component/About';
 import TechEvents from './Component/TechEvents'
 import NonTechEvents from './Component/NonTechEvents';
 import Footer from './Component/Footer';
+import Partners from "./Component/Partners";
 
 function App() {
   const [isMobile, setIsMobile] = useState(false);
@@ -59,6 +60,7 @@ function App() {
               <Route path="/techEvents" element ={<TechEvents/>}/>
               <Route path="/nontechEvents" element={<NonTechEvents/>}/>
               <Route path="/footer" element={<Footer/>}/>
+              <Route path="/partners" element={<Partners/>}/>
             </Routes>
           </BrowserRouter>
         </div>
@@ -70,37 +72,6 @@ function App() {
 export default App;
 
 
-
-
-// import React from 'react';
-
-// import { BrowserRouter, Route, Routes } from 'react-router-dom';
-// import Home from './Component/Home';
-// import Particle from './Component/Particles/Particles';
-// import About from './Component/About';
-
-
-// function App() {
-//   return (
-//     <>
-//       <Particle/>
-//       <BrowserRouter>
-//         <div className="relative overflow-hidden">
-          
-//           <div className="relative z-10">
-//             <Routes>
-//               <Route path='/' element={<Home/>} />
-//               <Route path='/about' element={<About/>}/>
-//             </Routes>
-//           </div>
-//         </div>
-//       </BrowserRouter>
-//     </>
-    
-//   );
-// }
-
-// export default App;
 
 
 
