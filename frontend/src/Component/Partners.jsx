@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Footer from "./Footer";
+import NavBar from "./NavBar";
 
 const sponsors = [
   {
@@ -23,6 +24,7 @@ const sponsors = [
 const SponsorsPage = () => {
   return (
     <StyledWrapper>
+        <NavBar/>
       <div className="sponsors-container glitch text-center py-10">
         <h1 className="text-4xl text-[#57cfdc] mb-8">Our<span className="text-[#FF4500]">Partners</span> </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
