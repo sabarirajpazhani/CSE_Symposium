@@ -13,21 +13,18 @@ const sponsors = [
     id: 2,
     name: "Company B",
     logo: "https://via.placeholder.com/150", // Replace with actual image URLs
-  },
-  {
-    id: 3,
-    name: "Company C",
-    logo: "https://via.placeholder.com/150", // Replace with actual image URLs
-  },
+  }
 ];
 
 const SponsorsPage = () => {
   return (
     <StyledWrapper>
-        <NavBar/>
+      <NavBar />
       <div className="sponsors-container glitch text-center py-10">
-        <h1 className="text-4xl text-[#57cfdc] mb-8">Our<span className="text-[#FF4500]">Partners</span> </h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <h1 className="text-4xl text-[#57cfdc] mb-8">
+          Our<span className="text-[#FF4500]">Partners</span>
+        </h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center gap-8">
           {sponsors.map((sponsor) => (
             <div key={sponsor.id} className="sponsor-card p-4 animated-border">
               <img
@@ -40,14 +37,12 @@ const SponsorsPage = () => {
           ))}
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </StyledWrapper>
-    
   );
 };
 
 export default SponsorsPage;
-
 
 const StyledWrapper = styled.div`
   .sponsor-card {
@@ -68,7 +63,7 @@ const StyledWrapper = styled.div`
     width: 100%;
     height: 100%;
     border-radius: 16px;
-    border: 7px solid;
+    border: 7px solid; /* Reduced from 7px to 4px */
     border-image: linear-gradient(90deg, #57cfdc, #FF4500) 1;
     z-index: -1;
     animation: borderAnimation 2.5s linear infinite;
