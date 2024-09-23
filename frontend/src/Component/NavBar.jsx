@@ -78,7 +78,7 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/partners"
                 className="block py-2 px-3 text-white hover:text-blue-500 hover:underline hover:decoration-4 md:p-0 glitch"
                 onClick={closeMenu}
               >
