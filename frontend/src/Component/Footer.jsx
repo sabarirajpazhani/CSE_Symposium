@@ -53,7 +53,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/cebroid__cse?igsh=c3Rjbnc3OHVzZ3lw" title="Instagram" className="flex items-center p-1">
                 <FaInstagram className="text-white w-8 h-8 hover:text-[#FF4500]" />
               </a>
-              <a href="#" title="WhatsApp" className="flex items-center p-1">
+              <a href="https://chat.whatsapp.com/HRKT5MU6luOJ9V1wkZTdSo" title="WhatsApp" className="flex items-center p-1">
                 <FaWhatsapp className="text-white w-8 h-8 hover:text-[#57cfdc]" />
               </a>
               <a href="https://www.facebook.com/profile.php?id=61566419366194&mibextid=ZbWKwL" title="Facebook" className="flex items-center p-1">
