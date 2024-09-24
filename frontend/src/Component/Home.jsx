@@ -14,6 +14,7 @@ import About from './About';
 import TechEvents from './TechEvents';
 import NonTechEvents from './NonTechEvents';
 import Footer from './Footer';
+import Members from './Members';
 
 // New Countdown Component
 const Countdown = () => {
@@ -170,6 +171,7 @@ const Home = () => {
         <About />
         <TechEvents />
         <NonTechEvents />
+        <Members/>
         <Footer />
       </div>
     </>
