@@ -2,18 +2,18 @@ import React from "react";
 import styled from "styled-components";
 import Footer from "./Footer";
 import Partner1 from '../Assets/Images/Partners/csp.jpeg';
-import Partner2 from '../Assets/Images/Partners/mp.png';
+import Partner2 from '../Assets/Images/Partners/ccp.jpeg';
 import { useSpring, animated } from "react-spring"; // Import react-spring
 
 const sponsors = [
   {
     id: 1,
-    name: "Marketing Sponser",
+    name: "Marketing Partner",
     logo: Partner1, // Replace with actual image URLs
   },
   {
     id: 2,
-    name: "Partner",
+    name: "Marketing Partner",
     logo: Partner2, // Replace with actual image URLs
   }
 ];
