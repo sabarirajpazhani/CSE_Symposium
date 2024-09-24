@@ -50,11 +50,11 @@ const About = () => {
             onMouseLeave={() => setScale(1)}
           />
           <animated.div style={slideUp} className="md:flex-1">
-            <h1 className="text-3xl md:text-4xl glitch text-darkDesert mb-4 text-center">
-              THE SYMPOSIUM
+            <h1 className="text-3xl md:text-4xl glitch text-darkDesert text-[#57cfdc] mb-4 text-center">
+              THE <span className="text-[#FF4500] text-darkDesert"> SYMPOSIUM</span>
             </h1>
-            <p className="text-base md:text-lg text-white text-opacity-60 text-[18px] font-normal leading-[2.15em] py-5 w-[100%] mb-4 text-center">
-              Hackerz is an annual tech-fest hosted by the Department of Computer Science and Engineering of Adhi College of Engineering and Technology. Embark on an exciting journey with a diverse range of activities and challenges that blend the thrill of fun with the excitement of technology.
+            <p className="text-base md:text-lg text-white text-opacity-90 text-[20px] font-serif leading-[2.15em] py-5 w-[100%] mb-4 text-center">
+            Cebroid, the annual tech fest organized by the Department of Computer Science and Engineering at Adhi College of Engineering and Technology, invites you to dive into an exhilarating world where innovation meets entertainment, featuring a captivating array of activities and challenges designed to spark creativity and ignite your passion for technology!
             </p>
           </animated.div>
         </div>
@@ -62,11 +62,11 @@ const About = () => {
         {/* Second Section */}
         <div className="section flex flex-col md:flex-row items-center justify-between w-full">
           <animated.div style={slideUp} className="md:flex-1">
-            <h1 className="text-3xl md:text-4xl glitch text-darkDesert mb-4 text-center">
-              Department Of Computer Science and Engineering
+            <h1 className="text-3xl md:text-4xl glitch text-[#57cfdc] text-darkDesert mb-4 text-center">
+              Department Of <span className="text-[#FF4500] text-darkDesert"> Computer Science and Engineering</span>
             </h1>
-            <p className="text-base md:text-lg text-white text-opacity-60 text-[18px] font-normal leading-[2.15em] py-5 w-[100%] mb-4 text-center">
-              Computer Science and Engineering (CSE) is an academic programme that integrates the field of Computer Engineering and Computer Science. The course contains a plethora of topics but emphasizes the basics of computer programming and networking. We work with hardware, software and software systems, including the theory, design, development, and implementation of software and software systems. It is a realm of invention and application that always pushes you to accomplish more and there is never enough. This field has a long and storied history and has seen many advancements. From these, we should conclude that computer science is a revolutionary field.
+            <p className="text-base md:text-lg text-white text-opacity-90 text-[20px] font-serif leading-[2.15em] py-5 w-[100%] mb-4 text-center">
+            Computer Science and Engineering (CSE) is a dynamic academic program that seamlessly merges the realms of Computer Engineering and Computer Science, offering a rich tapestry of subjects that delve into the fundamentals of programming and networking. This field is a playground for innovation and creativity, where the design, development, and implementation of cutting-edge software systems challenge you to think beyond limits and continuously strive for excellence. With a legacy steeped in groundbreaking advancements, CSE stands as a testament to the transformative power of technology in shaping our world.
             </p>
           </animated.div>
           <animated.img
@@ -90,11 +90,12 @@ const About = () => {
             onMouseLeave={() => setScale(1)}
           />
           <animated.div style={slideUp} className="md:flex-1">
-            <h1 className="text-3xl md:text-4xl glitch text-darkDesert mb-4 text-center">
-              Our College
+            <h1 className="text-3xl md:text-4xl text-[#57cfdc] glitch text-darkDesert mb-4 text-center">
+              Our <span className="text-[#FF4500] text-darkDesert"> College</span>
             </h1>
-            <p className="text-base md:text-lg text-white text-opacity-60 text-[18px] font-normal leading-[2.15em] py-5 w-[100%] mb-4 text-center">
-              Computer Science and Engineering (CSE) is an academic programme that integrates the field of Computer Engineering and Computer Science. The course contains a plethora of topics but emphasizes the basics of computer programming and networking. We work with hardware, software and software systems, including the theory, design, development, and implementation of software and software systems. It is a realm of invention and application that always pushes you to accomplish more and there is never enough. This field has a long and storied history and has seen many advancements. From these, we should conclude that computer science is a revolutionary field.
+            <p className="text-base md:text-lg text-white text-opacity-90 text-[20px] font-serif leading-[2.15em] py-5 w-[100%] mb-4 text-center">
+              
+Adhi College of Engineering and Technology, a distinguished institution in Tamil Nadu, was founded with the mission of delivering hands-on education. Through robust industry partnerships, the college has made a significant global impact while offering students a harmonious blend of academic rigor and extracurricular activities. At ACET, we provide a wide range of opportunities designed for our students to excel and achieve their aspirations. Committed to fostering practical learning and industry collaboration, Adhi College of Engineering and Technology empowers students to thrive in their careers.
             </p>
           </animated.div>
         </div>

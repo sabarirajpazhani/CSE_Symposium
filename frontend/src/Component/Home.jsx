@@ -160,7 +160,7 @@ const Home = () => {
         <Countdown />
 
         <h2 className="text-[22px] sm:text-4xl font-semibold py-12 text-[#FF4500] text-center tracking-widest px-2 glitch">
-  October <span className="font-serif text-4xl sm:text-5xl">18, 2024</span>
+  October <span className="font-serif text-[22px] sm:text-5xl">18, 2024</span>
 </h2>
 
         <Button />

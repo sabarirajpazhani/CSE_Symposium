@@ -50,13 +50,13 @@ const Footer = () => {
               Reach <span className="text-[#FF4500]">US</span>
             </h3>
             <div className="mt-2 flex justify-center space-x-3">
-              <a href="#" title="Instagram" className="flex items-center p-1">
+              <a href="https://www.instagram.com/cebroid__cse?igsh=c3Rjbnc3OHVzZ3lw" title="Instagram" className="flex items-center p-1">
                 <FaInstagram className="text-white w-8 h-8 hover:text-[#FF4500]" />
               </a>
               <a href="#" title="WhatsApp" className="flex items-center p-1">
                 <FaWhatsapp className="text-white w-8 h-8 hover:text-[#57cfdc]" />
               </a>
-              <a href="#" title="Facebook" className="flex items-center p-1">
+              <a href="https://www.facebook.com/profile.php?id=61566419366194&mibextid=ZbWKwL" title="Facebook" className="flex items-center p-1">
                 <FaFacebook className="text-white w-7 h-7 hover:text-[#FF4500]" />
               </a>
             </div>
