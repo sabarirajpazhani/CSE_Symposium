@@ -87,7 +87,7 @@ const NavBar = () => {
             </li>
 
             <li>
-              <a href="https://forms.gle/your-google-form-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://forms.gle/UT7wJ2MWr6xuPwsS8" target="_blank" rel="noopener noreferrer">
                 <button className="block py-2 px-3 font-bold text-[#FF4500] hover:text-blue-500 hover:underline hover:decoration-4 md:p-0 glitch">Register Now</button>
               </a>
             </li>

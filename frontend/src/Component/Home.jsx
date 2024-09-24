@@ -182,7 +182,7 @@ const Home = () => {
 const Button = () => {
   return (
     <StyledWrapper>
-      <a href="https://forms.gle/your-google-form-link" target="_blank" rel="noopener noreferrer">
+      <a href="https://forms.gle/UT7wJ2MWr6xuPwsS8" target="_blank" rel="noopener noreferrer">
         <button className="glitch">Register Now</button>
       </a>
     </StyledWrapper>
