@@ -1,9 +1,10 @@
+
+
 import React from 'react';
+import { FaInstagram, FaFacebook, FaWhatsapp } from 'react-icons/fa'; // Importing react-icons
 import cebroid from '../Assets/Images/Cebroid.png';
 import clg from '../Assets/Images/AdhiLogo.png';
-import insta from '../Assets/Images/Social_media/insta.png'
-import fb from '../Assets/Images/Social_media/facebook.png'
-import whatsapp from '../Assets/Images/Social_media/whatsapp.png'
+
 const Footer = () => {
   return (
     <footer className="bg-[#2b2a2a] bg-opacity-60 px-4 py-10 shadow-custom dark:text-gray-800">
@@ -49,14 +50,14 @@ const Footer = () => {
               Reach <span className="text-[#FF4500]">US</span>
             </h3>
             <div className="mt-2 flex justify-center space-x-3">
-              <a href="#" title="Facebook" className="flex items-center p-1">
-                <img src={insta} alt="Instagram" className="w-8 h-8" />
-              </a>
-              <a href="#" title="Twitter" className="flex items-center p-1">
-                <img src={whatsapp} alt="WhatsApp" className="w-8 h-8" />
-              </a>
               <a href="#" title="Instagram" className="flex items-center p-1">
-                <img src={fb} alt="Facebook" className="w-7 h-7" />
+                <FaInstagram className="text-white w-8 h-8 hover:text-[#FF4500]" />
+              </a>
+              <a href="#" title="WhatsApp" className="flex items-center p-1">
+                <FaWhatsapp className="text-white w-8 h-8 hover:text-[#57cfdc]" />
+              </a>
+              <a href="#" title="Facebook" className="flex items-center p-1">
+                <FaFacebook className="text-white w-7 h-7 hover:text-[#FF4500]" />
               </a>
             </div>
           </div>
@@ -88,3 +89,4 @@ const Footer = () => {
 };
 
 export default Footer;
+  
