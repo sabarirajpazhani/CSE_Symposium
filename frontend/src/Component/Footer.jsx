@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import { FaInstagram, FaFacebook, FaWhatsapp } from 'react-icons/fa'; // Importing react-icons
 import cebroid from '../Assets/Images/Cebroid.png';
@@ -46,7 +44,7 @@ const Footer = () => {
 
           {/* Reach Us Section */}
           <div>
-            <h3 className="glitch font-bold text-2xl tracking-wide text-[#57cfdc]">
+            <h3 className="glitch font-bold text-2xl tracking-wide text-[#FF4500]">
               Reach <span className="text-[#FF4500]">US</span>
             </h3>
             <div className="mt-2 flex justify-center space-x-3">

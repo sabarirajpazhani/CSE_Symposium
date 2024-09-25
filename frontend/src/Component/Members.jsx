@@ -37,10 +37,10 @@ const Symposium = () => {
           <div className="mb-6">
             <h2 className="text-4xl font-serif text-[#FF4500]">Event Coordinators</h2>
             <ul className="mt-2 list-disc list-inside text-lg text-black">
-              <li>SP Shushil<a href="tel:8144012223" className="font-mono text-xl"> - 8144012223</a></li>
-              <li>SP Jaswanth<a href="tel:9710366999" className="font-mono text-xl"> - 9710366999</a></li>
-              <li>A Anitha<a href="tel:8428121764" className="font-mono text-xl"> - 8428121764</a></li>
-              <li>R Nisha<a href="tel:6382436780" className="font-mono text-xl"> - 6382436780</a></li>
+              <p>SP Shushil<a href="tel:8144012223" className="font-mono text-xl"> - 8144012223</a></p>
+              <p>SP Jaswanth<a href="tel:9710366999" className="font-mono text-xl"> - 9710366999</a></p>
+              <p>A Anitha<a href="tel:8428121764" className="font-mono text-xl"> - 8428121764</a></p>
+              <p>R Nisha<a href="tel:6382436780" className="font-mono text-xl"> - 6382436780</a></p>
             </ul>
           </div>
 
