@@ -41,9 +41,6 @@ const ProjectModal = ({ project, isOpen, closeModal }) => {
           </h3>
           <p className="text-gray-300 text-lg mb-6">{project.description}</p>
           <p className="text-gray-400 font-semibold mb-6">{project.date}</p>
-          <p className="text-white glitch text-left">Event Cordinators</p>
-          <p className="text-gray-400 text-2xl font-semibold text-left">{project.cordinator1}</p>
-          <p className="text-gray-400 text-2xl font-semibold text-left">{project.cordinator2}</p>
 
           {/* Links */}
           <div className="flex justify-center items-center space-x-8">

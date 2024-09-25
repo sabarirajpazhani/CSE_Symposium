@@ -1,7 +1,7 @@
 [
     {
       "id": "1",
-      "title": "TECHNICAL QUIZ",
+      "title": "GAME OF CODE",
       "description": "Git Me There is a user-friendly web application, crafted using HTML, CSS, JavaScript, and leveraging the power of third-party APIs. This application serves as a one-stop solution for planning transportation logistics for upcoming journeys within any U.S. city. By entering their destination, users are provided with walking and biking scores, as well as a list of nearby restaurants. For destinations with a walking score below 50, the application conveniently presents an option to book an Uber ride, ensuring an effortless travel experience.",
       "thumbnail": "TechEvents/technical_quiz.jpg",
       "date": "July 2022",
@@ -38,20 +38,16 @@
     },
     {
       "id": "5",
-      "title": "Pomodoro Timer",
-      "description": "The fruit of a dynamic week-long paired programming challenge, curated by Chingu. Crafted by two efficiency enthusiasts, our app breathes fresh life into the revered Pomodoro technique that we passionately incorporate into our daily routines. Taking inspiration, yet adding our flair, we've not only cloned a popular app but have enhanced it with a unique \"Developer Mode\". This speedy mode whizzes through time, allowing users to swiftly experience functionalities. Enhance your productivity cycles with the Pomodoro Timer, and witness time-management in a whole new light!",
-      "thumbnail": "projects/pomodoro_timer.png",
-      "date": "March 2023",
-      "cordinator1":"xxxxxx",
-      "cordinator2":"yyyyyyy"
+      "title": "BUG DRACARYS",
+      "description": "In the 'Code Dracarys' contest, competitors are provided with a coding debug question paper. Each competitor must debug the errors directly on the question paper. The contest will consist of three rounds, with Java and Python as the only programming languages allowed. Any involvement in unauthorized activities will result in disqualification. After the first round, the top 10 teams will advance to the second round. Following the second round, the top 5 teams will qualify for the final round. The top three teams from the final round will be declared the winners. Note : Teams will be selected for each round based on the number of errors they successfully debug.",
+      "thumbnail": "TechEvents/bug_dracrays.jpg",
+      "date": "</>"
     },
     {
       "id": "6",
-      "title": "SEB Events",
-      "description": "A hands-on exploration of Next.js routing intricacies, SEBevents exemplifies file-to-route translations, slug routes, and single parameter routing. Seamlessly merging React components with Next.js page structures, the application features an intuitive event browsing system. Users can view spotlighted events, delve into detailed event cards, or filter events by month and year. Incorporating the useRouter hook, the app facilitates programmatic navigation and effortlessly decodes URL-embedded data. With robust error-handling mechanisms, SEBevents promises a smooth user experience.",
-      "thumbnail": "projects/seb-events.png",
-      "date": "October 2023",
-      "cordinator1":"xxxxxx",
-      "cordinator2":"yyyyyyy"
+      "title": "GAME OF CODE",
+      "description": "The competitors are provided with separate systems for the 'Game of Code' contest, which is hosted on HackerRank. Each participant must log in to their HackerRank account or sign up if they do not have one. Mobile phones are strictly prohibited inside the Game of Code lab, and all phones must be placed on top of the CPU. Any involvement in unauthorized activities will result in disqualification. Competitors are allowed to use programming languages such as Java, Python, C, and C++ only. The number of rounds may be adjusted based on the number of participants. The top three contestants will be recognized as winners.",
+      "thumbnail": "TechEvents/game_of_code.jpg",
+      "date": "</>"
     }
   ]
