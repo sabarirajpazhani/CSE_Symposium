@@ -1,21 +1,10 @@
 [
     {
-      "id": "1",
-      "title": "GAME OF CODE",
-      "description": "Git Me There is a user-friendly web application, crafted using HTML, CSS, JavaScript, and leveraging the power of third-party APIs. This application serves as a one-stop solution for planning transportation logistics for upcoming journeys within any U.S. city. By entering their destination, users are provided with walking and biking scores, as well as a list of nearby restaurants. For destinations with a walking score below 50, the application conveniently presents an option to book an Uber ride, ensuring an effortless travel experience.",
-      "thumbnail": "TechEvents/technical_quiz.jpg",
-      "date": "July 2022",
-      "cordinator1":"xxxxxx",
-      "cordinator2":"yyyyyyy"
-    },
-    {
       "id": "2",
-      "title": "BUG HUNTERS",
-      "description": "A meticulously designed digital showcase of my diverse projects and technical prowess. Crafted using Bootstrap, this portfolio captures the essence of responsiveness and modern design aesthetics. It presents my works in an organized, elegant manner, ensuring smooth navigation and optimal viewing across all device sizes. From the intricate animations to the intuitive layouts, every aspect of this portfolio is a testament to my commitment to quality and attention to detail.",
-      "thumbnail": "projects/bootstrap_portfolio.png",
-      "date": "September 2022",
-      "cordinator1":"xxxxxx",
-      "cordinator2":"yyyyyyy"
+      "title": "CRAFTING THE CROWN ",
+      "description": "In the 'Crafting the Crown' contest for the CSE symposium, participants must design a unique and original logo that represents the given theme. Logos must be submitted in digital format (JPEG, PNG, or SVG) by the specified deadline, along with a brief description of the design concept and how it reflects the given theme. Each participant is allowed to submit only one entry. The use of copyrighted materials or pre-existing designs is strictly prohibited, and any violations will result in disqualification. Logos must be clear, scalable, and suitable for use on various platforms, including posters, social media, and merchandise. The judging criteria will include creativity, relevance to the given theme, aesthetic appeal, and versatility. The top three designs will be awarded prizes, and the winning logo may be featured as the official symbol of the symposium. Participants are expected to adhere to submission guidelines and maintain professionalism throughout the competition.",
+      "thumbnail": "TechEvents/crafting.jpeg",
+      "date": "</>"
     },
     {
       "id": "3",
