@@ -19,28 +19,24 @@
     },
     {
       "id": "3",
-      "title": "PAPER PRESENTATION",
-      "description": "This project involved a comprehensive refactoring of the Odessa High School Broncho Band's website. It was redesigned to be mobile responsive, while also updating images and links for a more appealing and user-friendly experience. New pages were added, working in close collaboration with the band director to ensure that the final design echoed her vision and faithfully represented the values of the OHS Broncho Band. The website was expertly crafted using tools from WiX and continues to be a work in progress, reflecting the ever-evolving spirit of the band program.",
-      "date": "October 2022",
-      "cordinator1":"xxxxxx",
-      "cordinator2":"yyyyyyy"
+      "title": "CITADEL CHRONICLES",
+      "description": "In the 'Citadel Chronicles' event, participants must submit their research papers in advance, adhering to the provided format and submission deadlines. Each team or individual will be allotted a specific time slot to present their paper, typically ranging from 10 to 15 minutes, followed by a short Q&A session. Presentations must be made using PowerPoint or similar presentation software, and participants are encouraged to prepare engaging visuals to complement their content. The use of unauthorized materials or devices during the presentation is strictly prohibited. All research and data presented must be original, and plagiarism will result in immediate disqualification. Judging criteria will include the quality of research, clarity of presentation, originality, and the ability to answer questions effectively. The top three presenters will be awarded prizes. Participants are expected to maintain professionalism and decorum throughout the event.",
+      "thumbnail": "TechEvents/paper_present.jpeg",
+      "date": "</>"
+  
     },
     {
       "id": "4",
-      "title": "LOGO CREATION",
-      "description": "Introducing Travel 2 It – your next must-have travel companion, masterfully crafted during the 6-week Chingu Voyage 41 journey. Dive into a seamless trip-planning experience, where organizing is as simple as creating editable stacks and cards. From jotting down must-visit spots to curating detailed plans, each card is your canvas. Not set on the order? Fluidly drag and drop cards or entire stacks until it feels just right. Enjoy our elegant Dark & Light Modes. Sharing your journeys with loved ones via Email, Facebook, or Whatsapp is available now! Make every trip a masterpiece with Travel 2 It.",
-      "thumbnail": "projects/travel_2_it.png",
-      "github": "https://github.com/missatrox44/travel2it",
-      "deployed": "https://cosmic-gnome-4fc624.netlify.app/",
-      "date": "December 2022",
-      "cordinator1":"xxxxxx",
-      "cordinator2":"yyyyyyy"
+      "title": "TYRION'S TRIVIA",
+      "description": "In the 'Tyrion's Trivia' contest, the first and second rounds are conducted on an online platform, where participants can take the quiz using either a laptop or a mobile phone. The subsequent rounds are held in person, with participants answering questions by raising their hand to respond. The number of participants advancing to the next rounds will be determined based on the total number of participants and their scores in the earlier rounds. The final round is conducted solely through the raise-hand-to-answer format. Any involvement in unauthorized activities, such as cheating or collaboration, will result in immediate disqualification. Participants are expected to maintain fairness and integrity throughout the contest. The top three contestants from the final round will receive exciting prizes. ",
+      "thumbnail": "TechEvents/triva.jpeg",
+      "date": "</>"
     },
     {
       "id": "5",
       "title": "BUG DRACARYS",
       "description": "In the 'Code Dracarys' contest, competitors are provided with a coding debug question paper. Each competitor must debug the errors directly on the question paper. The contest will consist of three rounds, with Java and Python as the only programming languages allowed. Any involvement in unauthorized activities will result in disqualification. After the first round, the top 10 teams will advance to the second round. Following the second round, the top 5 teams will qualify for the final round. The top three teams from the final round will be declared the winners. Note : Teams will be selected for each round based on the number of errors they successfully debug.",
-      "thumbnail": "TechEvents/bug_dracrays.jpg",
+      "thumbnail": "TechEvents/bug_dracrays.jpeg",
       "date": "</>"
     },
     {
