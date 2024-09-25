@@ -18,7 +18,7 @@ import Members from './Members';
 
 // New Countdown Component
 const Countdown = () => {
-  const targetDate = '2024-10-18T23:59:59';
+  const targetDate = '2024-10-17T23:59:59';
 
   const calculateTimeLeft = () => {
     const difference = +new Date(targetDate) - +new Date();
