@@ -19,18 +19,16 @@
     },
     {
       "id": "3",
-      "title": "FUN",
-      "description": "This project involved a comprehensive refactoring of the Odessa High School Broncho Band's website. It was redesigned to be mobile responsive, while also updating images and links for a more appealing and user-friendly experience. New pages were added, working in close collaboration with the band director to ensure that the final design echoed her vision and faithfully represented the values of the OHS Broncho Band. The website was expertly crafted using tools from WiX and continues to be a work in progress, reflecting the ever-evolving spirit of the band program.",
+      "title": "LINKING OF KINGDOMS",
+      "description": "In the 'LINKING OF KINGDOMS' game, participants will face picture-based challenges that focus on fun and light-hearted subjects. Each challenge will require players to identify connections between images, testing their observation and reasoning skills. The game will be played in multiple rounds, with teams or individuals progressing based on their performance in each round. The use of any external aids, including mobile phones or the internet, is strictly prohibited, and violations will lead to disqualification. Participants are expected to maintain fair play and respect fellow competitors. Additional rules and guidelines, including specific round formats and scoring criteria, will be provided by the organizers on-site. The top performers will be awarded prizes, and all decisions made by the organizers will be final.",
       "thumbnail": "projects/bootstrap_portfolio.png",
-      "date": "October 2022",
-      "cordinator1":"xxxxxx",
-      "cordinator2":"yyyyyyy"
+      "date": "</>"
     },
     {
       "id": "4",
-      "title": "THE KINGS MOV",
-      "description": "Introducing Travel 2 It your next must-have travel companion, masterfully crafted during the 6-week Chingu Voyage 41 journey. Dive into a seamless trip-planning experience, where organizing is as simple as creating editable stacks and cards. From jotting down must-visit spots to curating detailed plans, each card is your canvas. Not set on the order? Fluidly drag and drop cards or entire stacks until it feels just right. Enjoy our elegant Dark & Light Modes. Sharing your journeys with loved ones via Email, Facebook, or Whatsapp is available now! Make every trip a masterpiece with Travel 2 It.",
-      "thumbnail": "projects/travel_2_it.png",
+      "title": "THE KINGS MOVE",
+      "description": "For the 'THE KINGS MOVE', registration is available exclusively online, and all participants must complete their registration before the event begins. Each player will have a time control of approximately 5 minutes to complete their moves. In the case of a draw, the winner will be determined by the time difference between the players. FIDE rules will apply throughout the tournament, ensuring fair play and adherence to standard chess regulations. Each player is permitted one illegal move during the game, but any further violations will result in a loss. Participants are expected to maintain good sportsmanship, respect their opponents, and abide by the event’s guidelines. Players are responsible for monitoring their own time and moves, and any disputes will be handled by the tournament organizers, whose decisions will be final. The top players will be awarded prizes, and all participants are encouraged to arrive on time and be prepared for their matches.",
+      "thumbnail": "NonTechEvents/chess.jpeg",
       "date": "</>"
     },
     {
