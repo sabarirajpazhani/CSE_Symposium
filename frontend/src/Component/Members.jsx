@@ -19,7 +19,7 @@ const Symposium = () => {
           <div className="mb-6">
             <h2 className="text-3xl font-serif text-[#FF4500]">Head of the Department</h2>
             <p className="text-lg text-black">
-                Mr.K.S. Thangavel 
+                Mr.S. Thangavel 
             </p>
           </div>
 
@@ -28,7 +28,7 @@ const Symposium = () => {
             <h2 className="text-4xl font-serif text-[#FF4500]">Staff Coordinators</h2>
             <ul className="mt-2 list-disc list-inside text-lg text-black">
               <li>Mr.R. Manickam</li>
-              <li>Mrs. Durga</li>
+              <li>Mrs. Durga Devi</li>
               <li>Ms.A.B. Hemalatha</li>
             </ul>
           </div>

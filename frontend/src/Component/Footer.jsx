@@ -36,9 +36,9 @@ const Footer = () => {
               About
             </h3>
             <ul className="mt-2 space-y-1">
-              <li><a className="text-white" href="#">Cebroid</a></li>
-              <li><a className="text-white" href="#">Dept. of CSE</a></li>
-              <li><a className="text-white" href="#">Our College</a></li>
+              <li><a className="text-white" href="/about">Cebroid</a></li>
+              <li><a className="text-white" href="/about">Dept. of CSE</a></li>
+              <li><a className="text-white" href="/about">Our College</a></li>
             </ul>
           </div>
 

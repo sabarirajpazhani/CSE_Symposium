@@ -43,7 +43,7 @@ const SponsorsPage = () => {
                 alt={sponsor.name}
                 className="mx-auto mb-4 h-40 w-40 object-contain"
               />
-              <h2 className="text-xl">{sponsor.name}</h2>
+              {/* <h2 className="text-xl">{sponsor.name}</h2> */}
             </div>
           ))}
         </div>
