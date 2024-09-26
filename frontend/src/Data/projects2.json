@@ -1,27 +1,23 @@
 [
     {
       "id": "1",
-      "title": "FREE FIRE",
-      "description": "Git Me There is a user-friendly web application, crafted using HTML, CSS, JavaScript, and leveraging the power of third-party APIs. This application serves as a one-stop solution for planning transportation logistics for upcoming journeys within any U.S. city. By entering their destination, users are provided with walking and biking scores, as well as a list of nearby restaurants. For destinations with a walking score below 50, the application conveniently presents an option to book an Uber ride, ensuring an effortless travel experience.",
+      "title": "DUB OF ICE AND FIRE",
+      "description": "In the 'DUB OF ICE AND FIRE', only teams are allowed to participate, with each team consisting of a minimum of two members. One designated team member will be responsible for conveying a message to their team using only sign language—verbal communication is strictly prohibited. The message must relate to one of the following categories: a movie title, a celebrity’s name (such as an actor, actress, or director), or a song title. Teams will have a limited time to guess the correct answer based on the non-verbal cues provided. Any form of verbal hints or unauthorized communication will result in penalties or disqualification. Players are encouraged to be creative with their gestures while ensuring that they follow the rules. The game will be conducted in multiple rounds, and the teams with the highest number of correct guesses will advance to the final rounds. The top three teams will be awarded prizes, and all participants are expected to uphold the spirit of fair play and respect the decisions made by the organizers.",
       "thumbnail": "NonTechEvents/free_fire.jpg",
-      "date": "July 2022",
-      "cordinator1":"xxxxxx",
-      "cordinator2":"yyyyyyy"
+      "date": "</>"
     },
     {
       "id": "2",
       "title": "GULLY CRICKET",
-      "description": "A meticulously designed digital showcase of my diverse projects and technical prowess. Crafted using Bootstrap, this portfolio captures the essence of responsiveness and modern design aesthetics. It presents my works in an organized, elegant manner, ensuring smooth navigation and optimal viewing across all device sizes. From the intricate animations to the intuitive layouts, every aspect of this portfolio is a testament to my commitment to quality and attention to detail.",
-      "thumbnail": "projects/bootstrap_portfolio.png",
-      "date": "September 2022",
-      "cordinator1":"xxxxxx",
-      "cordinator2":"yyyyyyy"
+      "description": "In the 'GULLY CRICKET', strict rules will be followed to ensure fair play and enjoyment for all participants. No verbal intimidation or sledging is allowed, and any form of sledging will result in automatic disqualification. The umpire’s decision is final, and players must respect all rulings without dispute. Each team is limited to two overs, and only underarm bowling is permitted to maintain a balanced and fun playing environment. Full toss deliveries will be considered no balls, and standard Box Cricket rules will apply. Players are expected to maintain sportsmanship, follow the rules, and respect their opponents and the game. Any disputes or issues will be handled by the organizers, whose decisions will be binding. The top teams will be recognized and rewarded, with all players encouraged to participate in the spirit of friendly competition.",
+      "thumbnail": "NonTechEvents/cricket.jpeg",
+      "date": "</>"
     },
     {
       "id": "3",
       "title": "LINKING OF KINGDOMS",
       "description": "In the 'LINKING OF KINGDOMS' game, participants will face picture-based challenges that focus on fun and light-hearted subjects. Each challenge will require players to identify connections between images, testing their observation and reasoning skills. The game will be played in multiple rounds, with teams or individuals progressing based on their performance in each round. The use of any external aids, including mobile phones or the internet, is strictly prohibited, and violations will lead to disqualification. Participants are expected to maintain fair play and respect fellow competitors. Additional rules and guidelines, including specific round formats and scoring criteria, will be provided by the organizers on-site. The top performers will be awarded prizes, and all decisions made by the organizers will be final.",
-      "thumbnail": "projects/bootstrap_portfolio.png",
+      "thumbnail": "NonTechEvents/connections.jpeg",
       "date": "</>"
     },
     {
