@@ -51,7 +51,7 @@ const Symposium = () => {
             <p className="text-lg text-black mt-2">K. Abinashini<a href="tel:8870306385" className="font-mono text-xl"> - 8870306385</a></p>
             <h2 className="text-4xl font-serif text-[#FF4500] mt-14">Non-Technical Event Coordinators</h2>
             <p className="text-lg text-black mt-2">B. Subash Chandra Bose<a href="tel:8754279041" className="font-mono text-xl"> - 8754279041</a></p>
-            <p className="text-lg text-black mt-2">S. Priyanka<a href="tel:8122226390" className="font-mono text-xl"> - 8122226390</a></p>
+            <p className="text-lg text-black mt-2">K. Ashwini<a href="tel:7200960268" className="font-mono text-xl"> - 7200960268</a></p>
           </div>
         </div>
       </div>
