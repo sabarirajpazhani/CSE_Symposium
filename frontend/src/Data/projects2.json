@@ -28,21 +28,17 @@
     },
     {
       "id": "4",
-      "title": "BGM FINDER",
+      "title": "THE KINGS MOV",
       "description": "Introducing Travel 2 It your next must-have travel companion, masterfully crafted during the 6-week Chingu Voyage 41 journey. Dive into a seamless trip-planning experience, where organizing is as simple as creating editable stacks and cards. From jotting down must-visit spots to curating detailed plans, each card is your canvas. Not set on the order? Fluidly drag and drop cards or entire stacks until it feels just right. Enjoy our elegant Dark & Light Modes. Sharing your journeys with loved ones via Email, Facebook, or Whatsapp is available now! Make every trip a masterpiece with Travel 2 It.",
       "thumbnail": "projects/travel_2_it.png",
-      "date": "December 2022",
-      "cordinator1":"xxxxxx",
-      "cordinator2":"yyyyyyy"
+      "date": "</>"
     },
     {
       "id": "5",
-      "title": "HUNTING",
-      "description": "The fruit of a dynamic week-long paired programming challenge, curated by Chingu. Crafted by two efficiency enthusiasts, our app breathes fresh life into the revered Pomodoro technique that we passionately incorporate into our daily routines. Taking inspiration, yet adding our flair, we've not only cloned a popular app but have enhanced it with a unique \"Developer Mode\". This speedy mode whizzes through time, allowing users to swiftly experience functionalities. Enhance your productivity cycles with the Pomodoro Timer, and witness time-management in a whole new light!",
-      "thumbnail": "projects/pomodoro_timer.png",
-      "date": "March 2023",
-      "cordinator1":"xxxxxx",
-      "cordinator2":"yyyyyyy"
+      "title": "WINTER WARFIELD",
+      "description": "In 'WINTER WARFIELD' tournament, map selection for both Battle Royale (BR) and Clash Squad (CS) modes will be determined by the organizers. Only registered players are allowed to participate, and any team with non-registered players will be immediately disqualified. Participants must ensure they are officially registered before the event begins to avoid any issues. Standard eSports rules will apply, including fair play, game conduct, and behavior expectations. Players are required to use their own gaming equipment, and any form of cheating, hacking, or using unauthorized software will lead to immediate disqualification. The organizers reserve the right to provide additional rules or modifications on-site, which will be communicated to all participants prior to the matches. All players must maintain sportsmanship, respect fellow competitors, and follow the guidelines to ensure a fair and enjoyable gaming experience. The top teams will be awarded prizes, and all decisions made by the organizers will be final.",
+      "thumbnail": "NonTechEvents/free_fire.jpeg",
+      "date": "</>"
     },
     {
       "id": "6",
