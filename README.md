@@ -11,17 +11,40 @@
   <img src="https://github.com/user-attachments/assets/0dfe1d71-7777-44cf-a8db-136a831c3d60" alt="Adhi" width="400"/>
 </p>
 
+1. **React**  
+   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React Logo" width="50" height="50"/>
 
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat)
-![React Router](https://img.shields.io/badge/-React_Router-CA4245?logo=react-router&logoColor=white&style=flat)
-![Styled Components](https://img.shields.io/badge/-Styled_Components-DB7093?logo=styled-components&logoColor=white&style=flat)
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white&style=flat)
-![TSParticles](https://img.shields.io/badge/-TSParticles-007ACC?logo=typescript&logoColor=white&style=flat)
-![React Spring](https://img.shields.io/badge/-React_Spring-FBFAFC?logo=spring&logoColor=white&style=flat)
-![AOS](https://img.shields.io/badge/-AOS-000000?logo=aos&logoColor=white&style=flat)
-![Jest](https://img.shields.io/badge/-Jest-C21325?logo=jest&logoColor=white&style=flat)
-![Testing Library](https://img.shields.io/badge/-Testing_Library-E33332?logo=testing-library&logoColor=white&style=flat)
-![Web Vitals](https://img.shields.io/badge/-Web_Vitals-007ACC?logo=web-vitals&logoColor=white&style=flat)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white&style=flat)
-![React Icons](https://img.shields.io/badge/-React_Icons-61DAFB?logo=react&logoColor=white&style=flat)
+2. **React Router**  
+   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React Router Logo" width="50" height="50"/>
+
+3. **Styled Components**  
+   <img src="https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png" alt="Styled Components Logo" width="50" height="50"/>
+
+4. **Tailwind CSS**  
+   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind CSS Logo" width="50" height="50"/>
+
+5. **TSParticles**  
+   <img src="https://raw.githubusercontent.com/tsparticles/tsparticles/main/images/logo.svg" alt="TSParticles Logo" width="50" height="50"/>
+
+6. **React Spring**  
+   <img src="https://avatars.githubusercontent.com/u/4238081?s=200&v=4" alt="React Spring Logo" width="50" height="50"/>
+
+7. **AOS (Animate On Scroll)**  
+   <img src="https://raw.githubusercontent.com/michalsnik/aos/master/logo/aos_logo.svg" alt="AOS Logo" width="50" height="50"/>
+
+8. **Jest**  
+   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg" alt="Jest Logo" width="50" height="50"/>
+
+9. **React Testing Library**  
+   <img src="https://testing-library.com/img/octopus-64x64.png" alt="React Testing Library Logo" width="50" height="50"/>
+
+10. **Web Vitals**  
+   <img src="https://avatars.githubusercontent.com/u/68989785?s=200&v=4" alt="Web Vitals Logo" width="50" height="50"/>
+
+11. **Node.js**  
+   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js Logo" width="50" height="50"/>
+
+12. **React Icons**  
+   <img src="https://raw.githubusercontent.com/react-icons/react-icons/master/logo/react-icons.svg" alt="React Icons Logo" width="50" height="50"/>
+
 
