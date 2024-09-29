@@ -7,3 +7,6 @@
   <img src="https://github.com/user-attachments/assets/2ecd8038-29a9-4700-a546-8d62790dfc0b" alt="CSE1" width="400"/>
 </p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0dfe1d71-7777-44cf-a8db-136a831c3d60" alt="Adhi" width="400"/>
+</p>
