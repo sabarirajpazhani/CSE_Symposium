@@ -18,7 +18,7 @@ import Members from './Members';
 
 // New Countdown Component
 const Countdown = () => {
-  const targetDate = '2024-10-17T23:59:59';
+  const targetDate = '2024-10-15T23:59:59';
 
   const calculateTimeLeft = () => {
     const difference = +new Date(targetDate) - +new Date();
@@ -161,7 +161,7 @@ const Home = () => {
         <Countdown />
 
         <h2 className="text-[22px] sm:text-4xl font-semibold py-12 text-[#57cfdc] text-center tracking-widest px-2 glitch">
-  October <span className="font-serif text-[22px] text-[#FF4500] sm:text-5xl">18, 2024</span>
+  October <span className="font-serif text-[22px] text-[#FF4500] sm:text-5xl">16, 2024</span>
 </h2>
 
         <Button />
