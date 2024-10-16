@@ -31,7 +31,7 @@
     {
       "id": "6",
       "title": "GAME OF CODE",
-      "description": "The competitors are provided with separate systems for the 'Game of Code' contest, which is hosted on HackerRank. Each participant must log in to their HackerRank account or sign up if they do not have one. Mobile phones are strictly prohibited inside the Game of Code lab, and all phones must be placed on top of the CPU. Any involvement in unauthorized activities will result in disqualification. Competitors are allowed to use programming languages such as Java, Python, C, and C++ only. The number of rounds may be adjusted based on the number of participants. The top three contestants will be recognized as winners.",
+      "description": "The 'Game of Code Contest' requires all competitors to bring their own laptops for participation. Each participant must log in to their Codechef account or create one if they don't already have an account. Mobile phones are strictly prohibited within the contest lab, and all phones must be placed on the table. Any involvement in unauthorized activities will lead to immediate disqualification. Contestants are only allowed to use Java, Python, C, and C++ programming languages during the event. Depending on the number of participants, the number of rounds may be adjusted. The top two performers will be recognized as winners.",
       "thumbnail": "TechEvents/game_of_code.jpg",
       "date": "</>"
     }
