@@ -24,7 +24,7 @@
     {
       "id": "5",
       "title": "BUG DRACARYS",
-      "description": "In the 'Code Dracarys' contest, competitors are provided with a coding debug question paper. Each competitor must debug the errors directly on the question paper. The contest will consist of three rounds, with Java and Python as the only programming languages allowed. Any involvement in unauthorized activities will result in disqualification. After the first round, the top 10 teams will advance to the second round. Following the second round, the top 5 teams will qualify for the final round. The top three teams from the final round will be declared the winners. Note : Teams will be selected for each round based on the number of errors they successfully debug.",
+      "description": "The 'Debugging Event' will be conducted online, and participants are required to use either Java or Python for the test. All participants must bring their own laptops to the event. The test consists of two rounds: Round 1 will last 30 minutes, and Round 2 will last 20 minutes. After Round 1, the top 10 participants will advance to Round 2, and from there, the top 2 participants will be declared the winners. Any involvement in unauthorized activities will lead to immediate disqualification.",
       "thumbnail": "TechEvents/bug_dracrays.jpeg",
       "date": "</>"
     },
