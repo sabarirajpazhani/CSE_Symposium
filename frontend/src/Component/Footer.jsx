@@ -80,7 +80,7 @@ const Footer = () => {
       {/* Copyright Section */}
       <div className="mt-8 tracking-wide text-center text-white text-sm">
         <p>COPYRIGHT © CEBROID'24</p>
-        <p className='text-[#57cfdc] glitch'>Developed by <span className="text-[#FF4500]">CEBROID Web Development Crew</span></p>
+        <p className='text-[#57cfdc] glitch'>Developed by <span className="text-[#FF4500]">Sabari Raj. P</span></p>
       </div>
     </footer>
   );

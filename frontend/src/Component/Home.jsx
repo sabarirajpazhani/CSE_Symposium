@@ -138,7 +138,7 @@ const Home = () => {
             style={logoSpring}
             className="w-35 sm:w-[36%] my-20 sm:mb-0"
             src={HomeLogo}
-            alt="Trumpet with tentacle logo"
+            alt="Cebroid Logo"
           />
           <h1 className="text-4xl sm:text-5xl sm:mt-8 text-[#57cfdc] text-center glitch">
             Begins <span className="text-[#FF4500]">Now</span>
@@ -151,7 +151,7 @@ const Home = () => {
           style={logoSpring}
           className="w-35 sm:w-[36%] my-25 sm:mb-0"
           src={Cebroid}
-          alt="Trumpet with tentacle logo"
+          alt="Cebroid Logo"
         />
         <h2 className="text-[22px] sm:text-4xl font-semibold py-1 text-[#57cfdc] text-center tracking-widest px-2 glitch">
           Winter is <span className="text-[#FF4500]">Coming</span>

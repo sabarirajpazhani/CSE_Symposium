@@ -44,7 +44,7 @@ const About = () => {
           <animated.img
             style={{ ...springProps, ...vibrate }}
             src={CSElogo1}
-            alt="DeptLogo"
+            alt="CebroidLogo"
             className="w-48 h-48 md:w-64 md:h-64 object-cover mb-6 md:mb-0 md:mr-8"
             onMouseEnter={() => setScale(1.1)}
             onMouseLeave={() => setScale(1)}
@@ -72,7 +72,7 @@ const About = () => {
           <animated.img
             style={{ ...springProps, ...vibrate }}
             src={CSElogo2}
-            alt="DeptLogo"
+            alt="CSEDeptLogo"
             className="w-48 h-48 md:w-60 md:h-60 object-cover mb-10 md:mb-0 md:mr-8"
             onMouseEnter={() => setScale(1.1)}
             onMouseLeave={() => setScale(1)}
@@ -84,7 +84,7 @@ const About = () => {
           <animated.img
             style={{ ...springProps, ...vibrate }}
             src={Adhilogo}
-            alt="DeptLogo"
+            alt="AdhiCollegeLogo"
             className="w-40 h-40 md:w-63 md:h-63 object-cover mb-10 md:mb-0 md:mr-8"
             onMouseEnter={() => setScale(1.1)}
             onMouseLeave={() => setScale(1)}
