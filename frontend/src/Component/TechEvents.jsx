@@ -153,7 +153,7 @@ const Projects=()=> {
   });
 
   const openModal = (project) => setSelectedProject(project);
-  const closeModal = () => setSelectedProject(null);
+  const closeModal = () => setSelectedProject(null); 
 
   const modalAnimation = useSpring({
     opacity: selectedProject ? 1 : 0,
